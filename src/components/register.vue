@@ -29,7 +29,7 @@
           <el-form-item>
             <el-button :loading="loading" style="width:100%;" type="primary" @click="handleRegister">注册</el-button>
           </el-form-item>
-          <div class="login" @click="handleToLogin()">还没有帐号？立即注册</div>
+          <div class="login" @click="handleToLogin()">已有账号？立即登录</div>
         </el-form>
       </div>
     </el-card>
